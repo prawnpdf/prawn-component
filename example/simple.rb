@@ -5,5 +5,5 @@ Prawn::Component.define(:greetings) do
 end
 
 Prawn::Document.generate("x.pdf") do
-  draw :greetings, :name => "Matz", :box => [0, 0, 300, 30],
+  draw :greetings, :name => "Matz"
 end
